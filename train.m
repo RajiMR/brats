@@ -60,6 +60,7 @@ for idxFold = 1:5
     'PatchesPerImage',patchPerImage);
     valPatchDs.MiniBatchSize = miniBatchSize;
 
+%%3D densenet 
 %% Create Layer Graph
 % Create the layer graph variable to contain the network layers.
 %define n as number of channels
